@@ -98,14 +98,14 @@ nav ul li:nth-child(5):hover a{
     color: #ffe300;
 }
 nav ul li:nth-child(6) a{
-    color: #ffe300;
+    color: #ffe600;
 }
 .btn-content{
     position: relative;
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    background-color: #ecdb57;
+    background-color: #ffe600;
     display: inline-block;
     margin-right: 6px;
 }
