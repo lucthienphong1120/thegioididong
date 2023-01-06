@@ -58,7 +58,7 @@ setInterval(imgAuto, 5000);
 const rightbtntwo = document.querySelector('.fa-chevron-right-two');
 const leftbtntwo = document.querySelector('.fa-chevron-left-two');
 
-const imgnumbertwo = document.querySelectorAll('.slider-product-one-content-items');
+const imgnumbertwo = document.querySelectorAll('.slider-product-content-items');
 
 
 rightbtntwo.addEventListener('click', function(){
@@ -66,7 +66,7 @@ rightbtntwo.addEventListener('click', function(){
     if(index > imgnumbertwo.length - 1){
         index = 0;
     }
-    document.querySelector('.slider-product-one-content-items-content').style.right = index * 100 + '%';
+    document.querySelector('.slider-product-content-items-content').style.right = index * 100 + '%';
 });
 leftbtntwo.addEventListener('click', function(){
     index = index - 1;
@@ -79,19 +79,19 @@ leftbtntwo.addEventListener('click', function(){
 const rightbtnthree = document.querySelector('.fa-chevron-right-three');
 const leftbtnthree = document.querySelector('.fa-chevron-left-three');
 
-const imgnumberthree = document.querySelectorAll('.product-gallery-two-content-left-bottom-items');
+const imgnumberthree = document.querySelectorAll('.banner-product-content-left-bottom-items');
 
 rightbtnthree.addEventListener('click', function(){
     index = index + 1;
     if(index > imgnumberthree.length - 1){
         index = 0;
     }
-    document.querySelector('.product-gallery-two-content-left-bottom-content').style.right = index * 100 + '%';
+    document.querySelector('.banner-product-content-left-bottom-content').style.right = index * 100 + '%';
 });
 leftbtnthree.addEventListener('click', function(){
     index = index - 1;
     if(index < 0){
         index = imgnumberthree.length - 1;
     }
-    document.querySelector('.product-gallery-two-content-left-bottom-content').style.right = index * 100 + '%';
+    document.querySelector('.banner-product-content-left-bottom-content').style.right = index * 100 + '%';
 });
