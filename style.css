@@ -820,7 +820,6 @@ select {
 
 .banner-product-content-left-bottom {
     background-color: #fff;
-    display: flex;
     border-radius: 10px;
 }
 
@@ -893,8 +892,6 @@ select {
     position: relative;
     height: 425px;
     transition: all 0.5s ease;
-    width: 100%;
-    overflow: hidden;
 }
 
 .banner-product-content-left-bottom-items {
@@ -906,6 +903,10 @@ select {
 
 .banner-product-content-left-bottom-items:nth-child(2) {
     transform: translateX(100%);
+}
+
+.banner-product-content-left-bottom-items:nth-child(3) {
+    transform: translateX(200%);
 }
 
 /* footer */
@@ -1123,4 +1124,16 @@ footer {
     outline: none;
     font-size: 20px;
     cursor: pointer;
+}
+
+/* admin */
+
+td,
+th {
+    padding: 5px;
+}
+
+.image {
+    width: 80px;
+    height: 80px;
 }
